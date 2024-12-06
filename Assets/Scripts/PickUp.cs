@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-       public XRController controller; // Reference to the controller
+    public XRController controller; // Reference to the controller
     public UnityEngine.XR.Interaction.Toolkit.InputHelpers.Button grabButton = UnityEngine.XR.Interaction.Toolkit.InputHelpers.Button.Grip; // Button used for grabbing
     public float activationThreshold = 0.1f; // Sensitivity for grab detection
 
