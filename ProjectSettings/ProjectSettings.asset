@@ -161,7 +161,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.MacalesterComp194.194Project
+    Android: com.MacalesterComp194.SustainabilityProject
     Standalone: com.Macalester-Comp194.SustainabilityProject
   buildNumber:
     Standalone: 0
