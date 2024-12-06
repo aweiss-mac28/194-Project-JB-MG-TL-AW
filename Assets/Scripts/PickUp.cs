@@ -14,19 +14,19 @@ public class NewBehaviourScript : MonoBehaviour
 
     void Update()
     {
-        if (controller)
-        {
-            bool isPressed = CheckIfButtonPressed(controller, grabButton);
+        // if (controller)
+        // {
+        //     bool isPressed = CheckIfButtonPressed(controller, grabButton);
 
-            if (isPressed && heldObject == null) // Try to grab
-            {
-                TryGrab();
-            }
-            else if (!isPressed && heldObject != null) // Release
-            {
-                ReleaseObject();
-            }
-        }
+        //     if (isPressed && heldObject == null) // Try to grab
+        //     {
+        //         TryGrab();
+        //     }
+        //     else if (!isPressed && heldObject != null) // Release
+        //     {
+        //         ReleaseObject();
+        //     }
+        // }
     }
 
     void TryGrab()
@@ -54,24 +54,24 @@ public class NewBehaviourScript : MonoBehaviour
 
     void ReleaseObject()
     {
-        if (heldObject != null)
-        {
-            Rigidbody rb = heldObject.GetComponent<Rigidbody>();
-            if (rb)
-            {
-                rb.isKinematic = false; // Re-enable physics
-                rb.velocity = controller.inputDevice.velocity; // Apply velocity for throwing
-                rb.angularVelocity = controller.inputDevice.angularVelocity; // Apply spin
-            }
+        // if (heldObject != null)
+        // {
+        //     Rigidbody rb = heldObject.GetComponent<Rigidbody>();
+        //     if (rb)
+        //     {
+        //         rb.isKinematic = false; // Re-enable physics
+        //         rb.velocity = controller.inputDevice.velocity; // Apply velocity for throwing
+        //         rb.angularVelocity = controller.inputDevice.angularVelocity; // Apply spin
+        //     }
 
-            heldObject.transform.SetParent(originalParent); // Detach from controller
-            heldObject = null;
-        }
+        //     heldObject.transform.SetParent(originalParent); // Detach from controller
+        //     heldObject = null;
+        // }
     }
 
-    private bool CheckIfButtonPressed(XRController controller, UnityEngine.XR.Interaction.Toolkit.InputHelpers.Button button)
-    {
-        controller.inputDevice.IsPressed(button, out bool isPressed, activationThreshold);
-        return isPressed;
-    }
+    // private bool CheckIfButtonPressed(XRController controller, UnityEngine.XR.Interaction.Toolkit.InputHelpers.Button button)
+    // {
+    //     // controller.inputDevice.IsPressed(button, out bool isPressed, activationThreshold);
+    //     // return isPressed;
+    // }
 }
