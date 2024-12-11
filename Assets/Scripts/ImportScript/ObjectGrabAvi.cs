@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -47,6 +48,7 @@ public class ObjectGrab : MonoBehaviour
    {
        if (objectInHand != null) {
            objectInHand.GetComponent<Rigidbody>().isKinematic = false;
+           objectInHand.GetComponent<Rigidbody>().AddForce(new Vector(), ForceMode.Impulse); 
            objectInHand.transform.SetParent (null);
            objectInHand = null;
        }
