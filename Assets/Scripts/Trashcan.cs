@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class TrashcanMaterialDetector : MonoBehaviour
 {
-    // Optional: Sounds for feedback
+    
     public AudioClip plasticSound;
     public AudioClip glassSound;
     public AudioClip paperSound;
@@ -10,14 +10,14 @@ public class TrashcanMaterialDetector : MonoBehaviour
 
     void Start()
     {
-        // Get the AudioSource component to play sounds
+       
         audioSource = GetComponent<AudioSource>();
     }
 
-    // This function will be called when another object enters the trashcan's trigger collider
+    
     private void OnTriggerEnter(Collider other)
     {
-        // Check the tag of the object entering the trashcan
+       
         switch (other.tag)
         {
             case "Plastic":
@@ -41,7 +41,7 @@ public class TrashcanMaterialDetector : MonoBehaviour
         }
     }
 
-    // Optional function to play a feedback sound when the correct material is detected
+   
     private void PlayFeedback(AudioClip clip)
     {
         if (clip != null && audioSource != null)
