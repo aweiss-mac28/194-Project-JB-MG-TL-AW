@@ -6,6 +6,10 @@ TagManager:
   tags:
   - CanPickUp
   - Boxtag
+  - Recyclable
+  - Compostable
+  - Trash
+  - Ewaste
   layers:
   - Default
   - TransparentFX

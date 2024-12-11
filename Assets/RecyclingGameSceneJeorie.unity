@@ -393,6 +393,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottle3Blue
       objectReference: {fileID: 0}
+    - target: {fileID: 657988998513500765, guid: 4cbfeb0abc558484fabc57fa3866b1c9, type: 3}
+      propertyPath: m_TagString
+      value: Recyclable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -491,7 +495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1700171439170184, guid: d1d8476b90274424b9420ef3c0257d94, type: 3}
       propertyPath: m_TagString
-      value: Recycling
+      value: Recyclable
       objectReference: {fileID: 0}
     - target: {fileID: 4037152592001108, guid: d1d8476b90274424b9420ef3c0257d94, type: 3}
       propertyPath: m_LocalScale.x
@@ -618,6 +622,10 @@ PrefabInstance:
     - target: {fileID: 6634683416808645038, guid: fefa06f394b5344848cf5b34b19c3bf5, type: 3}
       propertyPath: m_Name
       value: box_milk_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6634683416808645038, guid: fefa06f394b5344848cf5b34b19c3bf5, type: 3}
+      propertyPath: m_TagString
+      value: Recyclable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -766,6 +774,10 @@ PrefabInstance:
     - target: {fileID: 5002732482752053944, guid: ce0771ecf1c5c4e9aa9a6fa1510be433, type: 3}
       propertyPath: m_Name
       value: box_milk_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5002732482752053944, guid: ce0771ecf1c5c4e9aa9a6fa1510be433, type: 3}
+      propertyPath: m_TagString
+      value: Recyclable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -917,7 +929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7823310272705202865, guid: 738b5a9777fd2fb4fb52c057138df7fc, type: 3}
       propertyPath: m_TagString
-      value: Compost
+      value: Compostable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -995,7 +1007,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6992992264900075630, guid: 250b7f4c3d80f4e77aa65a8f0c75ee57, type: 3}
       propertyPath: m_TagString
-      value: Recycling
+      value: Recyclable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1073,7 +1085,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2546246978259986268, guid: 9b11253ef403c48e9a9056a4c8263803, type: 3}
       propertyPath: m_TagString
-      value: Recycling
+      value: Recyclable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1438,6 +1450,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottle3
       objectReference: {fileID: 0}
+    - target: {fileID: 533784423316795687, guid: e72a7b599e40e6442be4ecac77d5b794, type: 3}
+      propertyPath: m_TagString
+      value: Recyclable
+      objectReference: {fileID: 0}
     - target: {fileID: 874739248482184093, guid: e72a7b599e40e6442be4ecac77d5b794, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1078873
@@ -1514,7 +1530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1894080222321498385, guid: a28df897b09ef461395c8d02ece2c055, type: 3}
       propertyPath: m_TagString
-      value: Compost
+      value: Compostable
       objectReference: {fileID: 0}
     - target: {fileID: 8239524500044404747, guid: a28df897b09ef461395c8d02ece2c055, type: 3}
       propertyPath: m_LocalScale.x
@@ -1590,6 +1606,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottle1Black
       objectReference: {fileID: 0}
+    - target: {fileID: 3533620491221449746, guid: eca93f876f20ee24aab7a880e6efa22e, type: 3}
+      propertyPath: m_TagString
+      value: Recyclable
+      objectReference: {fileID: 0}
     - target: {fileID: 4197954851000018600, guid: eca93f876f20ee24aab7a880e6efa22e, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1078873
@@ -1663,6 +1683,10 @@ PrefabInstance:
     - target: {fileID: 8875269795907759837, guid: 7af111f7937fe4366ae33389f9cabd05, type: 3}
       propertyPath: m_Name
       value: toilet_paper_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8875269795907759837, guid: 7af111f7937fe4366ae33389f9cabd05, type: 3}
+      propertyPath: m_TagString
+      value: Compostable
       objectReference: {fileID: 0}
     - target: {fileID: 9016171772311166829, guid: 7af111f7937fe4366ae33389f9cabd05, type: 3}
       propertyPath: m_LocalScale.x
@@ -2039,7 +2063,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1226811400629940, guid: 49203af9f7278534ebb4ea7060f42843, type: 3}
       propertyPath: m_TagString
-      value: Recycling
+      value: Recyclable
       objectReference: {fileID: 0}
     - target: {fileID: 4209912586844808, guid: 49203af9f7278534ebb4ea7060f42843, type: 3}
       propertyPath: m_LocalScale.x
@@ -2252,6 +2276,10 @@ PrefabInstance:
     - target: {fileID: 402353327161325257, guid: ff0ca65046cdd47a2825de382af46e17, type: 3}
       propertyPath: m_Name
       value: toilet_paper_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 402353327161325257, guid: ff0ca65046cdd47a2825de382af46e17, type: 3}
+      propertyPath: m_TagString
+      value: Compostable
       objectReference: {fileID: 0}
     - target: {fileID: 506160523844146162, guid: ff0ca65046cdd47a2825de382af46e17, type: 3}
       propertyPath: m_LocalScale.x
@@ -2717,6 +2745,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottle3Green
       objectReference: {fileID: 0}
+    - target: {fileID: 7342743214302415651, guid: 2260358c0fd9a044ab0141803f0a4632, type: 3}
+      propertyPath: m_TagString
+      value: Recyclable
+      objectReference: {fileID: 0}
     - target: {fileID: 7975165344364335513, guid: 2260358c0fd9a044ab0141803f0a4632, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1078873
@@ -3027,7 +3059,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1131810238147440353, guid: d0a8afe7d9ef50448a04cb5ad14ccac0, type: 3}
       propertyPath: m_TagString
-      value: Compost
+      value: Compostable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3183,6 +3215,10 @@ PrefabInstance:
     - target: {fileID: 6077379039964380128, guid: e1b446070dd325d4b91368103e801e98, type: 3}
       propertyPath: m_Name
       value: Bottle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6077379039964380128, guid: e1b446070dd325d4b91368103e801e98, type: 3}
+      propertyPath: m_TagString
+      value: Recyclable
       objectReference: {fileID: 0}
     - target: {fileID: 6853599732238606682, guid: e1b446070dd325d4b91368103e801e98, type: 3}
       propertyPath: m_LocalScale.x
@@ -3445,6 +3481,10 @@ PrefabInstance:
     - target: {fileID: 5237383866485150801, guid: 69279df67a555c54eb2fa4d2b058f581, type: 3}
       propertyPath: m_Name
       value: Bottle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237383866485150801, guid: 69279df67a555c54eb2fa4d2b058f581, type: 3}
+      propertyPath: m_TagString
+      value: Recyclable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3855,7 +3895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4606146128930872758, guid: f2b50b00fb6ed4f6fb194fafbcb25ca4, type: 3}
       propertyPath: m_TagString
-      value: Recycling
+      value: Compostable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4584,7 +4624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7584591928906036958, guid: aa925dce6c9f94b4b8818aab84246b9f, type: 3}
       propertyPath: m_TagString
-      value: Compost
+      value: Compostable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4728,7 +4768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1188061737444922, guid: 565530ba333db6e45946a858afdc9468, type: 3}
       propertyPath: m_TagString
-      value: Recycling
+      value: Recyclable
       objectReference: {fileID: 0}
     - target: {fileID: 4067247187773476, guid: 565530ba333db6e45946a858afdc9468, type: 3}
       propertyPath: m_LocalScale.x
@@ -5329,7 +5369,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 522980764311058810, guid: 89d338ce39ce447f1a0c7d17926e378d, type: 3}
       propertyPath: m_TagString
-      value: Recycling
+      value: Compostable
       objectReference: {fileID: 0}
     - target: {fileID: 5470757985638012461, guid: 89d338ce39ce447f1a0c7d17926e378d, type: 3}
       propertyPath: m_LocalScale.x
@@ -5456,6 +5496,10 @@ PrefabInstance:
     - target: {fileID: 7099022616981471884, guid: 21b028fc196a64572899510c457db14c, type: 3}
       propertyPath: m_Name
       value: box_milk_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7099022616981471884, guid: 21b028fc196a64572899510c457db14c, type: 3}
+      propertyPath: m_TagString
+      value: Recyclable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5586,7 +5630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5865623017231785845, guid: 13d51ba06d5564b2ebd5221eeb0c3e17, type: 3}
       propertyPath: m_TagString
-      value: Compost
+      value: Compostable
       objectReference: {fileID: 0}
     - target: {fileID: 6968154223426903646, guid: 13d51ba06d5564b2ebd5221eeb0c3e17, type: 3}
       propertyPath: m_LocalScale.x
@@ -5664,7 +5708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3794938158450367909, guid: 772a895df7fca4fd8b6da8b8f9eb9b0a, type: 3}
       propertyPath: m_TagString
-      value: Compost
+      value: Compostable
       objectReference: {fileID: 0}
     - target: {fileID: 6299748482963593846, guid: 772a895df7fca4fd8b6da8b8f9eb9b0a, type: 3}
       propertyPath: m_LocalScale.x
@@ -5742,7 +5786,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4008610799542497148, guid: 54545446ea7bb1d49a60e927b5cc5fe6, type: 3}
       propertyPath: m_TagString
-      value: Compost
+      value: Compostable
       objectReference: {fileID: 0}
     - target: {fileID: 4389499887083206086, guid: 54545446ea7bb1d49a60e927b5cc5fe6, type: 3}
       propertyPath: m_LocalScale.x
@@ -5958,7 +6002,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1167601463275944, guid: f847ce136caed784faa29fd3a1b570bf, type: 3}
       propertyPath: m_TagString
-      value: Recycling
+      value: Recyclable
       objectReference: {fileID: 0}
     - target: {fileID: 4296462309468258, guid: f847ce136caed784faa29fd3a1b570bf, type: 3}
       propertyPath: m_LocalScale.x
