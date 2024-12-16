@@ -22,6 +22,7 @@ public class BoxDestroyTest : MonoBehaviour
     void OnTriggerEnter(Collider collided){
         if(collided.transform.CompareTag(destroyTag)){
             Destroy(collided.gameObject);
+            SceneScoreManager.instance.AddPoints();
         }
     }
 }
