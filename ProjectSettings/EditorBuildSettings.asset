@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ARExample.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main.unity
     guid: d5746b48090eac04c9209f0e1814681f
+  - enabled: 1
+    path: Assets/Scenes/RecyclingGameSceneJeorie.unity
+    guid: 934f171cbc2bd484c956f84e03760ca0
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7746155df0bc2488eb99605bf4f718fd, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: d1bbcd1afe8454e72972e991ae9b1fd9, type: 2}
