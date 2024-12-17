@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -31,5 +32,14 @@ public class SceneScoreManager : MonoBehaviour
     public void AddPoints(){
         score+=10;
         scoreText.text = score.ToString() + " POINTS";
+    }
+
+    public void SubtractPoints(){
+        score-=10;
+        scoreText.text = score.ToString() + " POINTS";
+    }
+
+    public int GetPoints(){
+        return score;
     }
 }
