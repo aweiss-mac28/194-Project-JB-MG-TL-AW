@@ -12,6 +12,8 @@ public class SceneScoreManager : MonoBehaviour
     public static SceneScoreManager instance; 
     public Text scoreText;
 
+    public Text scoreText2;
+
     int score = 0;
 
     private void Awake(){
@@ -21,6 +23,7 @@ public class SceneScoreManager : MonoBehaviour
     void Start()
     {
         scoreText.text = score.ToString() + " POINTS";
+        scoreText2.text = scoreText.text;
     }
 
     // Update is called once per frame
@@ -32,11 +35,13 @@ public class SceneScoreManager : MonoBehaviour
     public void AddPoints(){
         score+=10;
         scoreText.text = score.ToString() + " POINTS";
+        scoreText2.text = scoreText.text;
     }
 
     public void SubtractPoints(){
         score-=10;
         scoreText.text = score.ToString() + " POINTS";
+        scoreText2.text = scoreText.text;
     }
 
     public int GetPoints(){
