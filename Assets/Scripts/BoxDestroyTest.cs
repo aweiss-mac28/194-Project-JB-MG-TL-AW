@@ -24,5 +24,9 @@ public class BoxDestroyTest : MonoBehaviour
             Destroy(collided.gameObject);
             SceneScoreManager.instance.AddPoints();
         }
+        else if(!collided.transform.CompareTag(destroyTag)){
+            Destroy(collided.gameObject);
+            SceneScoreManager.instance.AddPoints();
+        }
     }
 }
